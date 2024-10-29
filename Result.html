@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id=p1 type="Number" placeholder="enter number">
+    <button onclick="result()">show result</button ><br>
+
+    <input id=p2>
+     
+    
+    
+    <script>
+        function result(){
+            let n=document.getElementById("p1").value;
+            if(n%2==0){
+                document.getElementById("p2").value="even";
+                // let b=document.getElementById("p1");
+                // b.setAttribute("p1","even");
+            }
+            else{
+                document.getElementById("p2").value="odd"; 
+            }
+
+
+        }
+    </script>
+</body>
+</html>
