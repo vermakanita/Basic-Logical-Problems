@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id=ip1 type="number" placeholder="enter the number">
+    <button onclick="OddEven()">click to know the number</button><br>
+    <input id=op1>
+    <!-- <input id="op2"> -->
+
+
+    <Script>
+        function OddEven(){
+    let  n= document.getElementById("ip1").value;
+    if(n%2==0){
+        documnet.getElementById("op1").value="even";
+    }
+    else{
+        documnet.getElementById("op1").value="odd";
+    }
+}
+    </Script>
+</body>
+</html>
