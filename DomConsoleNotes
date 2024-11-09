@@ -1,0 +1,16 @@
+document.getElementById('title').setAttribute('class','test')
+undefined
+document.getElementById('title').getAttribute('class')
+'test'
+document.getElementById('title').getAttribute('id')
+'title'
+document.getElementById("title").className
+'test'
+document.getElementById("title").class
+undefined
+document.getElementById("title").id;
+'title'
+document.getElementById("title");
+<h1 id=​"title" class=​"test">​Dom learning on chai aur code​</h1>​
+document.getElementById
+ƒ getElementById() { [native code] }
