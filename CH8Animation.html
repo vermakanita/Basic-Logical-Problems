@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CH8</title>
+    <style>
+        .progress{
+            background-color: tomato;
+            height: 5px;
+            animation: load 1s ease-in-out;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            height: 122px;
+            background-color: black;
+            color: aliceblue;
+        }
+
+        main {
+            height: 899px;
+            background-color: blue;
+        }
+        @keyframes load{
+            0%{
+                width: 0;
+            }
+            50%{
+                width: 90vh;
+            }
+            100%{
+                width: 100vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+  <div class="progress"></div>
+    <header>
+        <h1>hello</h1>
+    </header>
+    <main>
+            </main>
+
+</body>
+
+</html>
