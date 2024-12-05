@@ -1,30 +1,19 @@
-function BinarySearch(){
-let s=0;
-let i,flag=0,e,m;
-let a=[20,59,67,89,35,67,89];
-e=a.length-1;
-let search1=parseInt(prompt("enter element"));
-
-for(i=0;i<a.length;i++){
-    m=parseInt((s+e)/2);
-    if(search1==a[m]){
-        flag=1;
-         break;
+let a=[10,20,30,40,50];
+let s=40;
+ let f=0;l=a.length-1;
+ 
+ while(f<l){
+    let m=parseInt((f+l)/2);
+    console.log("outer")
+    if(s==m){
+        console.log("hire")
     }
-    else if(search1>a[m]){
-
-        s=m+1;
-
+    else if (m<s){
+        f=m+1;
+        console.log("2")
     }
-    else{
-        e=m-1;
+    else if(m>s){
+        l=m-1;
+        console.log("3")
     }
-}
-if(flag==1){
-    alert("no is present");
-}
-else{
-    alert("nu is not present");
-}
-}
-BinarySearch();
+ }
